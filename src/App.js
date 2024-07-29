@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Property from './pages/Property';
 import NotFound from './pages/NotFound';
+import Apropos from './pages/A-propos'; // Import de la nouvelle page
 import Header from './components/header';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/property/:id" element={<Property />} />
+        <Route path="/A-propos" element={<Apropos />} /> {/* Nouvelle route */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

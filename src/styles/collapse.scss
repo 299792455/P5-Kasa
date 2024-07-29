@@ -1,0 +1,43 @@
+.collapse {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .collapse-button {
+    width: 100%;
+    background: #f1f1f1;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .collapse-content {
+    padding: 10px;
+    background: #fafafa;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .arrow.down {
+    transform: rotate(45deg);
+  }
+  
+  .arrow.up {
+    transform: rotate(-135deg);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
