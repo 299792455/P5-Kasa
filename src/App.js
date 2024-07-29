@@ -4,21 +4,19 @@ import Home from './pages/Home';
 import Property from './pages/Property';
 import NotFound from './pages/NotFound';
 import Apropos from './pages/A-propos';
-import Header from './components/header';
-import Footer from './components/Footer';
-import './styles/NotFound.scss'
+import Layout from './components/layout'; // Assurez-vous que le composant Layout est bien importé
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/property/:id" element={<Property />} />
-        <Route path="/A-propos" element={<Apropos />} />
-        <Route path="*" element={<NotFound />} /> {/* Route pour la page d'erreur */}
-      </Routes>
-      <Footer />
+      <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/property/:id" element={<Property />} />
+          <Route path="/A-propos" element={<Apropos />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
