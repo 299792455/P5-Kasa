@@ -1,17 +1,35 @@
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../styles/images/logoKasaD.png'); // Remplacez par le chemin de votre image
-    background-size: cover;
-    background-position: center;
-    height: 300px; // Ajustez la hauteur selon vos besoins
-    border-radius: 10px;
-    color: black;
-    font-size: 2em;
-    font-weight: bold;
-  }
-  
-  .banner h1 {
-    margin: 0;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px; 
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 20px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../styles/images/KasaBannerBG.jpg');  
+  background-size: cover;
+  background-position: center; 
+  border-radius: 20px;
+}
+
+.banner h1 {
+  position: relative; 
+  margin: 0;
+  padding: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home';
 import Property from '../pages/Property';
 import NotFound from '../pages/NotFound';
-import Apropos from '../pages/A-propos'; // Import correct de la nouvelle page
+import Apropos from '../pages/A-propos';
 import Layout from './layout';
 
 const AppRouter = () => {

@@ -3,10 +3,13 @@
     border-radius: 8px;
     overflow: hidden;
     text-decoration: none;
-    color: #333;
-    background-color: white;
+    color: #ffffff;
+    background-color: #ff6b6b;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
     &:hover {
       transform: translateY(-5px);
@@ -21,7 +24,8 @@
   
     .card-title {
       padding: 15px;
-      font-size: 1.2em;
-      text-align: center;
+      font-size: 1em;
+      font-weight: 700;
+      height: 30px;
     }
   }
