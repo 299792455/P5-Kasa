@@ -1,0 +1,7 @@
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Assurez-vous qu'il n'y a pas d'espace entre "repeat" et les parenthèses
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }

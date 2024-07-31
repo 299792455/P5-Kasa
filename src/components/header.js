@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../logo.svg'; 
+import { NavLink } from 'react-router-dom';
+import '../styles/header.scss';
 
 const Header = () => {
   return (
-    <header>
-      <img src={logo} alt="Kasa Logo" />
+    <header className="header">
+      <img src="../styles/images/logoKasaD.png" alt="Kasa Logo" className="logo" />
       <nav>
-        <Link to="/">Accueil</Link>
-        <Link to="/A-propos">À Propos</Link>
+        <NavLink to="/" exact activeClassName="active">Accueil</NavLink>
+        <NavLink to="/A-propos" activeClassName="active">À Propos</NavLink>
       </nav>
     </header>
   );

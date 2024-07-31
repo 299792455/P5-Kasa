@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../styles/images/logoKasaD.png'); // Remplacez par le chemin de votre image
+    background-size: cover;
+    background-position: center;
+    height: 300px; // Ajustez la hauteur selon vos besoins
+    border-radius: 10px;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .banner h1 {
+    margin: 0;
+  }
