@@ -6,6 +6,7 @@ import Collapse from '../components/Collapse';
 import Rating from '../components/Rating';
 import Tag from '../components/Tag';
 import Host from '../components/Host';
+import '../styles/property.scss';
 
 const Property = () => {
   const { id } = useParams();

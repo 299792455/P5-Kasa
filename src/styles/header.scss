@@ -4,7 +4,8 @@
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
+ 
   
     .logo {
       height: 50px;
@@ -14,6 +15,7 @@
       a {
         margin: 0 10px;
         text-decoration: none;
+        font-size: 1.2em;
         color: #333;
         font-weight: bold;
         transition: color 0.3s;
