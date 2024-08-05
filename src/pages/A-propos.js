@@ -1,8 +1,13 @@
 import React from 'react';
 import Collapse from '../components/Collapse';
+import Banner from '../components/Banner';
+import '../styles/apropos.scss';
+import aproposBannerImage from '../styles/images/aproposkasa.jpg';
 
 const Apropos = () => {
   return (
+    <div className="apropos-page">
+    <Banner image={aproposBannerImage} /> 
     <div className="about-content">
       <Collapse title="Fiabilité">
         <p>Les annonces postées sur Kasa garantissent une fiabilité totale...</p>
@@ -16,6 +21,7 @@ const Apropos = () => {
       <Collapse title="Sécurité">
         <p>La sécurité est la priorité de Kasa...</p>
       </Collapse>
+    </div>
     </div>
   );
 };

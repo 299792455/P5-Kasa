@@ -1,12 +1,12 @@
 .property-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 100px;
+    gap: 80px;
     padding: 100px;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
 #root {
