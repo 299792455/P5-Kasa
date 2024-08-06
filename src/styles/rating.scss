@@ -1,11 +1,13 @@
 .rating {
     display: flex;
-  }
+    font-size: 32px;
+ 
   
-  .filled-star {
-    color: #ff6b6b;
-  }
-  
-  .empty-star {
-    color: #ddd;
-  }
+    .filled-star {
+      color: #ff6b6b;
+    }
+    
+    .empty-star {
+      color: #ddd;
+    }
+}
