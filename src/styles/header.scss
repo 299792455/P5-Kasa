@@ -6,17 +6,13 @@
     padding-right: 40px;
     background-color: white;
     height: 100px;
- 
-  
-    .logo {
-      height: 50px;
-    }
+    padding-top: 20px;
   
     nav {
       a {
         margin: 0 10px;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.7em;
         color: #171717;
         font-weight: 500;
         transition: color 0.3s;
@@ -32,3 +28,21 @@
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    .header {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    img {
+      width: 40%;
+    }
+
+    nav {
+    a {
+      text-transform: uppercase;
+      font-size: 1.3em !important;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import properties from '../annonces.json';
 import Slideshow from '../components/Slideshow';
@@ -24,7 +24,7 @@ const Property = () => {
   }
 
   return (
-    <div>
+    <div className="property-page">
       <Slideshow images={property.pictures} />
       <div className="property-details">
         <div className="property-infos">
@@ -46,16 +46,16 @@ const Property = () => {
         </div>
       
         <div className="collapses">
-            <Collapse title="Description">
-              <p>{property.description}</p>
-            </Collapse>
-            <Collapse title="Équipements">
-              <ul>
-                {property.equipments.map((equipment, index) => (
-                  <li key={index}>{equipment}</li>
-                ))}
-              </ul>
-            </Collapse>
+          <Collapse title="Description">
+            <p>{property.description}</p>
+          </Collapse>
+          <Collapse title="Équipements">
+            <ul>
+              {property.equipments.map((equipment, index) => (
+                <li key={index}>{equipment}</li>
+              ))}
+            </ul>
+          </Collapse>
         </div>
       </div>
     </div>

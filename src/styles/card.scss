@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -7,8 +9,6 @@
     background-color: #ff6b6b;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
     height: 500px;
     
     &:hover {
@@ -24,9 +24,19 @@
   
     .card-title {
       padding: 20px;
-      font-size: 1.2em;
-      font-weight: 700;
+      font-size: 2em;
+      font-weight: 600;
       height: 30px;
       text-align: left;
+    }
+  }
+
+  @media (max-width : 1024px) {
+    .card {
+      height :400px;
+
+      .card-title {
+        font-size: 1.5em;
+      }
     }
   }

@@ -12,10 +12,8 @@ const Collapse = ({ title, children }) => {
   useEffect(() => {
     if (isOpen) {
       contentRef.current.style.maxHeight = `${contentRef.current.scrollHeight}px`;
-      contentRef.current.classList.add('open');
     } else {
       contentRef.current.style.maxHeight = '0px';
-      contentRef.current.classList.remove('open');
     }
   }, [isOpen]);
 
@@ -25,7 +23,7 @@ const Collapse = ({ title, children }) => {
         {title}
         <span className={`arrow ${isOpen ? 'up' : 'down'}`}></span>
       </button>
-      <div ref={contentRef} className="collapse-content">
+      <div ref={contentRef} className={`collapse-content ${isOpen ? 'open' : ''}`}>
         {children}
       </div>
     </div>

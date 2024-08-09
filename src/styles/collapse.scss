@@ -1,5 +1,5 @@
 .collapse {
-  border: 1px solid #f56a6a;
+ 
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 30px;
@@ -11,7 +11,7 @@
   padding: 10px;
   text-align: left;
   width: 100%;
-  font-size: 16px;
+  font-size: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,13 +23,13 @@
   overflow: hidden;
   background: #fafafa;
   transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
-  padding: 0 10px; /* Ajoutez du padding horizontal ici */
+  padding: 0 10px; 
 }
 
-/* Classe ajoutée pour l'ouverture du contenu */
+
 .collapse-content.open {
-  max-height: 500px; /* Ajustez cette valeur selon la taille de votre contenu */
-  padding: 10px; /* Ajoutez du padding complet ici */
+  max-height: 500px; 
+  padding: 10px; 
 }
 
 .arrow {
@@ -47,6 +47,8 @@
 .arrow.up {
   transform: rotate(-135deg);
 }
+
+
 
 @keyframes fadeIn {
   from { opacity: 0; }

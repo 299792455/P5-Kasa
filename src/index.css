@@ -11,10 +11,18 @@ body {
 
 main {
   flex: 1;
-  padding: 40px;
+  padding: 80px;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 1024px) {
+  main {
+    padding: 20px;
+  }
+}
+

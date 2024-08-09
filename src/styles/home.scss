@@ -1,12 +1,24 @@
 .property-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 80px;
+    gap: 100px;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 80px;
     background-color: rgba(224, 229, 230, 0.253);
     border-radius: 30px;
+  }
+
+  @media (max-width: 1024px) {
+    .property-list {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      padding: 0;
+      background-color: none;
+      gap: 50px;
+      margin-top: 100px;
+    }
+
   }
 
 

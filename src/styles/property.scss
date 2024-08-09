@@ -1,66 +1,89 @@
 .property-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  
+
+  h1 {
+    font-size: 2.5em;
+    color: #FF6060;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 9px;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #454545;
+    margin-top: 5px;
+  }
+
+  .property-infos {
     display: flex;
-    flex-direction: column;
-    width: 100%; /* Prend toute la largeur disponible */
-     /* Limite la largeur pour une meilleure lisibilité */
-    margin: auto; /* Centre le conteneur horizontalement */
-    padding: 20px; /* Ajouté pour donner de l'espace autour des détails */
-  
-    h1 {
-      font-size: 1.8em;
-      color: #FF6060; /* Couleur rouge pour le titre */
-      margin: 0;
-      font-weight: 400;
-    }
-  
-    p {
-      font-size: 1.2em;
-      color: #454545;
-      margin-top: 5px;
-    }
+    justify-content: space-between;
+    align-items: center;
 
-    
-    .property-infos {
+    .property-title {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .property-title {
-        display: flex;
-        flex-direction: column;
-       
-      } 
-      .property-host {
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        margin-bottom: 20px;
-      }
+      flex-direction: column;
     }
 
-    .property-subinfo {
+    .property-host {
       display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-      
-      .tags {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 20px;
-      }
+      flex-direction: column;
+      align-items: flex-end;
+      margin-bottom: 20px;
     }
     
-    .collapses {
-        display: flex;
-        gap:80px;
-        .collapse {
-          flex: 1; /* Assure que les collapses prennent chacun la moitié de la largeur disponible */
-          margin-bottom: 0; /* Supprime la marge inférieure */
-        }
-      }
-  
-    .collapse-button {
-      background-color: #FF6060; /* Couleur rouge pour les boutons de collapse */
-      color: white;
+  }
+
+  .property-subinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
     }
   }
+
+
+  .collapses {
+    display: flex;
+    gap: 80px; 
+    
+    .collapse {
+      flex: 1; 
+    }
+
+    .collapse-button {
+      background-color: #FF6060;
+      color: white;
+    }
+    
+  }
+}
+
+@media (max-width:1024px) {
+  .property-details {
+    padding: 0px;
+    .property-infos {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .property-host {
+        align-items: flex-start;
+        margin-top: 10px;
+      }
+  }
+
+  .collapses {
+    flex-direction: column;
+    gap: 10px !important;
+  }
+}
+}

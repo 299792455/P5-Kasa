@@ -2,22 +2,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 250px; 
-  border-radius: 10px;
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-  position: relative;
+  height: 300px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  position: relative;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  
+
+  image {
+    object-fit: cover;
+  }
+
+   h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+  }
 }
 
-.banner h1 {
-  position: relative; 
-  margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+
+@media (max-width: 1024px) {
+  .banner  {
+    height: 200px;
+
+    h1 {
+      font-size: 2.6em;
+      width: 90%;
+      text-align: left;
+    }
+  }
 }
