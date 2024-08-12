@@ -32,20 +32,20 @@ const Property = () => {
             <h1>{property.title}</h1>
             <p>{property.location}</p>
           </div>
-          <div className="property-host">
-            <Host host={property.host} />
-          </div>
-        </div>
-        <div className='property-subinfo'>
           <div className="tags">
             {property.tags.map(tag => (
               <Tag key={tag} tag={tag} />
             ))}
           </div>
+        </div>
+        <div className='property-subinfo'>
+        <div className="property-host">
+            <Host host={property.host} />
+          </div>
           <Rating rating={property.rating} />
         </div>
-      
-        <div className="collapses">
+      </div>
+      <div className="collapses">
           <Collapse title="Description">
             <p>{property.description}</p>
           </Collapse>
@@ -57,7 +57,6 @@ const Property = () => {
             </ul>
           </Collapse>
         </div>
-      </div>
     </div>
   );
 };
