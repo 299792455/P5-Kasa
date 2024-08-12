@@ -4,9 +4,10 @@ import Home from './pages/Home';
 import Property from './pages/Property';
 import NotFound from './pages/NotFound';
 import Apropos from './pages/A-propos';
-import Layout from './components/layout'; // Assurez-vous que le composant Layout est bien importé
+import Layout from './components/layout'; 
 
 function App() {
+  
   return (
     <Router>
       <Layout>
@@ -18,6 +19,7 @@ function App() {
         </Routes>
       </Layout>
     </Router>
+    
   );
 }
 

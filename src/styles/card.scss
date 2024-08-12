@@ -10,6 +10,7 @@
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 500px;
+    font-family: 'Montserrat', sans-serif;
     
     &:hover {
       transform: translateY(-5px);
@@ -36,7 +37,7 @@
       height :400px;
 
       .card-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
     }
   }

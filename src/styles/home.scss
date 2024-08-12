@@ -5,8 +5,11 @@
     justify-content: center;
     align-items: center;
     padding: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: rgba(224, 229, 230, 0.253);
     border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   @media (max-width: 1024px) {
@@ -16,7 +19,11 @@
       padding: 0;
       background-color: none;
       gap: 50px;
-      margin-top: 100px;
+      margin-top: 80px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 80px;
+      margin: 0;
     }
 
   }

@@ -2,8 +2,11 @@
   position: relative;
   max-width: 100%;
   margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
   text-align: center;
   height: auto;
+  font-family: 'Montserrat', sans-serif;
 
   img {
     width: 100%;
@@ -56,7 +59,8 @@
 
 @media (max-width: 1024px) {
   .slideshow {
-
+    margin-left: 10px;
+    margin-right: 10px;
     .prev, .next {
       font-size: 2em;
     }

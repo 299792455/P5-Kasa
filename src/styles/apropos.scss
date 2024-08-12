@@ -1,19 +1,21 @@
 .apropos-page {
     display: flex;
     flex-direction: column;
-    
 
     .about-content {
       margin-left: 100px;
       margin-right: 100px;
+      margin-bottom: 50px;
     }
   }
 
   @media (max-width: 1024px) {
     .apropos-page {
       .about-content {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
       }
   }
+
   }
