@@ -7,9 +7,10 @@
   padding: 50px;
   color: #ff6b6b;
   font-family: 'Montserrat', sans-serif;
+  height: 800px;
     
     h1 {
-      font-size: 150px;
+      font-size: 2px;
       margin-bottom: 90px;  
     }
 
@@ -31,7 +32,6 @@
 @media (max-width: 1024px) {
   .not-found-content {
     margin-bottom: 30px;
-    height: 750px;
 
     h1 {
       font-size: 100px;
