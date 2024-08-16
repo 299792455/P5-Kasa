@@ -8,18 +8,24 @@
     padding-left: 50px;
     padding-right: 50px;
     font-family: 'Montserrat', sans-serif; 
+
+    img {
+      width: 200px;
+      height: auto;
+    }
+
     nav {
       a {
-        margin: 0 10px;
+        margin: 0 30px;
         text-decoration: none;
-        font-size: 1.7em;
-        color: #171717;
+        font-size: 1.5rem;
+        color: black;
         font-weight: 500;
         transition: color 0.3s;
   
         &.active {
           text-decoration: underline;
-          color: #ff6b6b; 
+          color: black; 
         }
   
         &:hover {
@@ -31,19 +37,36 @@
 
   @media (max-width: 1024px) {
     .header {
+      height: 50%;
       padding-left: 10px;
       padding-right: 10px;
-      margin-bottom: 30px;
+      padding-top: 10px;
+  
+      img {
+        width: 180px;
+        height: auto;
+      }
     }
-
-    img {
-      width: 40%;
-    }
-
-    nav {
-    a {
+  
+    .header nav a {
+      margin-right: 0;
       text-transform: uppercase;
       font-size: 1em !important;
     }
   }
-}
+
+  @media (max-width: 480px) {
+    .header {
+  
+      img {
+        width: 120px;
+        height: auto;
+      }
+    }
+  
+    .header nav a {
+      margin-right: 0;
+      text-transform: uppercase;
+      font-size: 0.7em !important;
+    }
+  }

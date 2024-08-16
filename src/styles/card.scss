@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -9,9 +11,10 @@
     background-color: #ff6b6b;
     transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 500px;
+    height: 350px;
     font-family: 'Montserrat', sans-serif;
     
+
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
@@ -24,20 +27,20 @@
     }
   
     .card-title {
-      padding: 20px;
-      font-size: 2em;
+      padding-left: 5px;
+      font-size: 1rem;
       font-weight: 600;
       height: 30px;
-      text-align: left;
+      
     }
   }
 
   @media (max-width : 1024px) {
     .card {
-      height :400px;
-
+      height :90%;
+      border-radius: 20px;
       .card-title {
-        font-size: 1.2em;
+        font-size: 1rem;
       }
     }
   }

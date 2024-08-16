@@ -11,3 +11,17 @@
     font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
   }
+
+  @media (max-width: 1024px) {
+    .tag {
+      font-size: 0.7em;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+  }
+
+  @media (max-width: 480px)  {
+    .tag{
+      
+    }
+  }

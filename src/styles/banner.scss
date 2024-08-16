@@ -2,23 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px; 
+  height: 230px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
-
-  image {
-    object-fit: cover;
-  }
 
    h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
-    font-size: 6em;
+    font-size: 3rem;
     font-weight: bold;
     color: white;
   }
@@ -27,14 +24,29 @@
 
 @media (max-width: 1024px) {
   .banner  {
-    height: 200px;
+    height: 150px;
     margin-left: 10px;
-      margin-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
 
     h1 {
-      font-size: 2.2em;
+      font-size: 1.8rem;
       width: 90%;
-      text-align: left;
+      text-align: center;
     }
   }
+}
+
+@media (max-width: 480px)  {
+  .banner {
+    height: 120px;
+  h1{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
 }

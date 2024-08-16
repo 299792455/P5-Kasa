@@ -6,20 +6,47 @@
     height: 200px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+
      p {
-      font-size: 2em;
+      font-size: 1.2rem;
     }
+
+      img {
+        margin-top: 30px;
+      }
+
   }
 
   @media (max-width: 1024px) {
     .footer {
       p {
-        font-size: 1.2em;
-        
+        font-size: 1rem;
+      }
+
+      img {
+        margin-top: 50px;
+        width: 160px;
+        height: auto;
       }
     }
     
+  }
+
+  @media (max-width: 480px) {
+    .footer {
+  
+      img {
+        width: 140px;
+        height: auto;
+      }
+    }
+  
+    .header nav a {
+      margin-right: 0;
+      text-transform: uppercase;
+      font-size: 0.85em !important;
+    }
   }
   
