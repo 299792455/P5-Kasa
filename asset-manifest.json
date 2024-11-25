@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/P5-kasa/static/css/main.74ba2a73.css",
-    "main.js": "/P5-kasa/static/js/main.178491bf.js",
-    "static/js/453.9701a2b0.chunk.js": "/P5-kasa/static/js/453.9701a2b0.chunk.js",
-    "static/media/aproposkasa.jpg": "/P5-kasa/static/media/aproposkasa.796d007cebdd47cc489b.jpg",
-    "static/media/KasaBannerBG.jpg": "/P5-kasa/static/media/KasaBannerBG.a7bff8ca50626ed92063.jpg",
-    "index.html": "/P5-kasa/index.html",
-    "main.74ba2a73.css.map": "/P5-kasa/static/css/main.74ba2a73.css.map",
-    "main.178491bf.js.map": "/P5-kasa/static/js/main.178491bf.js.map",
-    "453.9701a2b0.chunk.js.map": "/P5-kasa/static/js/453.9701a2b0.chunk.js.map"
+    "main.css": "/299792455/P5-Kasa.git/static/css/main.74ba2a73.css",
+    "main.js": "/299792455/P5-Kasa.git/static/js/main.dc0ff4f0.js",
+    "static/js/453.9701a2b0.chunk.js": "/299792455/P5-Kasa.git/static/js/453.9701a2b0.chunk.js",
+    "static/media/aproposkasa.jpg": "/299792455/P5-Kasa.git/static/media/aproposkasa.796d007cebdd47cc489b.jpg",
+    "static/media/KasaBannerBG.jpg": "/299792455/P5-Kasa.git/static/media/KasaBannerBG.a7bff8ca50626ed92063.jpg",
+    "index.html": "/299792455/P5-Kasa.git/index.html",
+    "main.74ba2a73.css.map": "/299792455/P5-Kasa.git/static/css/main.74ba2a73.css.map",
+    "main.dc0ff4f0.js.map": "/299792455/P5-Kasa.git/static/js/main.dc0ff4f0.js.map",
+    "453.9701a2b0.chunk.js.map": "/299792455/P5-Kasa.git/static/js/453.9701a2b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74ba2a73.css",
-    "static/js/main.178491bf.js"
+    "static/js/main.dc0ff4f0.js"
   ]
 }
