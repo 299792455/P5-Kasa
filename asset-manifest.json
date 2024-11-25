@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/P5-kasa/static/css/main.74ba2a73.css",
+    "main.js": "/P5-kasa/static/js/main.178491bf.js",
+    "static/js/453.9701a2b0.chunk.js": "/P5-kasa/static/js/453.9701a2b0.chunk.js",
+    "static/media/aproposkasa.jpg": "/P5-kasa/static/media/aproposkasa.796d007cebdd47cc489b.jpg",
+    "static/media/KasaBannerBG.jpg": "/P5-kasa/static/media/KasaBannerBG.a7bff8ca50626ed92063.jpg",
+    "index.html": "/P5-kasa/index.html",
+    "main.74ba2a73.css.map": "/P5-kasa/static/css/main.74ba2a73.css.map",
+    "main.178491bf.js.map": "/P5-kasa/static/js/main.178491bf.js.map",
+    "453.9701a2b0.chunk.js.map": "/P5-kasa/static/js/453.9701a2b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74ba2a73.css",
+    "static/js/main.178491bf.js"
+  ]
+}
